@@ -1,0 +1,26 @@
+nav.navbar {
+  margin-bottom: 1.5rem;
+  height: 50px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.48);
+}
+
+nav.navbar > ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav.navbar > ul > li {
+  list-style: none;
+}
+
+nav.navbar > ul > li > a {
+  padding: 0.35rem 0.5rem;
+  border-bottom: 1px solid;
+  border-bottom-color: transparent;
+  margin-inline: 0.5rem;
+}
+
+nav.navbar > ul > li > a.router-link-active {
+   border-bottom-color: initial;
+}
